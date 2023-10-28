@@ -1,38 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intreor</title>
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- tab icon -->
-    <link rel="icon" href="./images/icon/icon.svg">
+    <link rel="icon" href="./images/icon/icon.svg" />
     <!-- font Oswald css-->
-    <link rel="stylesheet" href="./fonts/font/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/oswald/stylesheet.css" />
+    <!-- font Nunito css -->
+    <link rel="stylesheet" href="./fonts/nunito sans/stylesheet.css" />
     <!-- normalize Css -->
-    <link rel="stylesheet" href="./css/nomalize.css">
+    <link rel="stylesheet" href="./css/nomalize.css" />
     <!-- style -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <figure class="brand_logo_box">
+            <img src="./images/icon/icon.svg" alt="Brand icon" />
+            <span class="brand_name">interior</span>
+          </figure>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#!">Home</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#!">Pages</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#!">Services</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#!">Projects</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#!">Blog</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#!">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__right">
+            <a class="search__btn" href="#">
+              <img src="./images/icon/search.svg" alt="Search" />
+            </a>
+            <a class="search__btn" href="#">
+              <img src="./images/icon/cart.svg" alt="Cart" />
+              <span class="cart_number">1</span>
+            </a>
+          </div>
+        </div>
+      </header>
 
-        <header class="header">
-            <div class="container">
-                <figure class="brand_logo_box">
-                    <img src="./images/icon/icon.svg" alt="Brand icon">
-                    <span class="brand_name">interior</span>
-                </figure>
+      <!-- main -->
+      <main>
+        <section class="intro">
+          <div class="container">
+            <div class="intro_content">
+              <span class="brand_name">INTERIOR</span>
+              <h1 class="intro_title">Home Deasigns Made Easy</h1>
+              <p class="intro_price">$416.00 <span>Starting</span></p>
+              <a class="intro_link" href="#!">Shop now</a>
             </div>
+          </div>
+        </section>
+        <section class="slider">
+          <div class="container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide_content">
+                    <h1 class="slide_name">New Chair Collection 2022</h1>
+                    <a href="#" class="slide_link btn">SHOP NOW</a>
+                  </div>
+                  <div class="slide-img">
+                    <img src="./images/card-img-1.png" alt="Card img" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_content">
+                    <h1 class="slide_name">New Chair Collection 2022</h1>
+                    <a href="#" class="slide_link btn">SHOP NOW</a>
+                  </div>
+                  <div class="slide-img">
+                    <img src="./images/card-img-2.png" alt="Card img" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_content">
+                    <h1 class="slide_name">New Chair Collection 2022</h1>
+                    <a href="#" class="slide_link btn">SHOP NOW</a>
+                  </div>
+                  <div class="slide-img">
+                    <img src="./images/card-img-1.png" alt="Card img" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_content">
+                    <h1 class="slide_name">New Chair Collection 2022</h1>
+                    <a href="#" class="slide_link btn">SHOP NOW</a>
+                  </div>
+                  <div class="slide-img">
+                    <img src="./images/card-img-1.png" alt="Card img" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_content">
+                    <h1 class="slide_name">New Chair Collection 2022</h1>
+                    <a href="#" class="slide_link btn">SHOP NOW</a>
+                  </div>
+                  <div class="slide-img">
+                    <img src="./images/card-img-1.png" alt="Card img" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_content">
+                    <h1 class="slide_name">New Chair Collection 2022</h1>
+                    <a href="#" class="slide_link btn">SHOP NOW</a>
+                  </div>
+                  <div class="slide-img">
+                    <img src="./images/card-img-1.png" alt="Card img" />
+                  </div>
+                </div>
+              </div>
+              
+              <!-- <div class="swiper-pagination"></div> -->
+            </div>
+            <div class="swiper-btns">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </section>
 
+        <section class="team">
+          <div class="container">
+            <h3 class="team_title">PROFESSIONAL TEAM</h3>
+            <div class="team_navbar">
+              <h1 class="tema_navbarTitle">The Best New Arrivals
+              </h1>
+              <div class="team_navbarSelection">
+                <button class="team_navBtn">Disk</button>
+                <button class="team_navBtn">Bedroom</button>
+                <button class="team_navBtn">Lighting</button>
+                <button class="team_navBtn">Accessories</button>
+              </div>
+            </div>
+            <div class="taem_cards">
+              <div class="team_card"></div>
+            </div>
+          </div>
+        </section>
 
-        </header>
-
-        <main class="main">
-
-
-
-        </main>
-
+      </main>
     </div>
-</body>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
