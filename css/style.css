@@ -1,3 +1,4 @@
+@import url(./mediaQuery.css);
 /* core style */
 *::after,
 *::before,
@@ -18,16 +19,35 @@ h4,
 p {
   margin: 0;
 }
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
 
 header {
   width: 100%;
   background-color: #d3cbc5;
 }
 
-body {
-  font-family: "Nunito Sans", sans-serif;
+/* menu btn */
+.menu {
+
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.menu >span {
+  display: none;
+  width: 20px;
+  height: 3px;
+  background-color: #000;
 }
 
+.meni__item_one {
+  background-color: #e0e0e0;
+}
+/* menu btn */
 .container {
   max-width: 1113px;
   margin: 0 auto;
@@ -92,6 +112,18 @@ header .container {
 .nav__list .nav__item:last-child {
   margin-right: 0;
 }
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.right__btn {
+  margin-right: 15px;
+}
+
 .header__right .search__btn:last-child {
   position: relative;
   margin-left: 27px;
