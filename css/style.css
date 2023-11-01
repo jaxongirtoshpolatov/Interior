@@ -653,7 +653,7 @@ header .container {
   top: 0;
   left: -5px;
   background-color: #1b1a1a;
-  box-shadow: 5px 33px 0px 0px #1b1a1a;
+  box-shadow: 5px 32px 0px 0px #1b1a1a;
 }
 
 .popular-product .team__navBtn::after {
