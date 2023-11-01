@@ -945,6 +945,10 @@ header .container {
   outline: #5a5a5a;
 }
 
+.join [type="submit"] {
+  cursor: pointer;
+}
+
 .join__form-box input:last-child {
   color: #1b1a1a;
   text-align: center;
@@ -967,6 +971,7 @@ header .container {
 
 .footer__container .social img {
   margin-right: 21px;
+  cursor: pointer;
 }
 
 .footer__container .social img:last-child {
